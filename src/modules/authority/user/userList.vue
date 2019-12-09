@@ -3,12 +3,12 @@
     <Form :model="queryForm" :label-width="100" label-position="right">
       <Row class="row">
         <Col span="8">
-          <FormItem label="用户名： 王孟娟">
+          <FormItem label="用户名：">
             <Input v-model="queryForm.name" />
           </FormItem>
         </Col>
         <Col span="8">
-          <FormItem label="年龄：">
+          <FormItem label="王孟娟年龄：">
             <InputNumber class="ageInput" :min="1" :max="100" :step="1" v-model="queryForm.age" />
           </FormItem>
         </Col>
