@@ -3,7 +3,7 @@
     <Form :model="queryForm" :label-width="100" label-position="right">
       <Row class="row">
         <Col span="8">
-          <FormItem label="用户名：">
+          <FormItem label="用户名： 王孟娟">
             <Input v-model="queryForm.name" />
           </FormItem>
         </Col>
